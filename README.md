@@ -8,11 +8,11 @@ research workspace.
 
 The artifact supports three different levels of reproduction.
 
-1. **Quick manuscript check.** Compile the anonymous manuscript from the
-   included LaTeX source and figures.
-2. **Aggregate-result reproduction.** Rebuild the paper-facing tables and
+1. **Aggregate-result reproduction.** Rebuild the paper-facing tables and
    code-generated figures from sanitized rank-sweep summaries included in this
    artifact. This is the main review-stage path and does not require GPUs.
+2. **Code-path smoke test.** Reconstruct tiny interface files and run a tiny
+   CPU LoRA train/eval check to verify the main scripts execute end to end.
 3. **Full rerun from public resources.** Reconstruct interface files from the
    original public datasets and rerun reader adaptation/evaluation. This
    requires downloading third-party datasets and model checkpoints from their
@@ -21,8 +21,7 @@ The artifact supports three different levels of reproduction.
 
 ## What Is Included
 
-- paper source files needed to compile the anonymous manuscript;
-- paper figures and consolidated aggregate result tables;
+- code-generated figures and consolidated aggregate result tables;
 - sanitized rank-sweep summary JSON files used to rebuild the main tables and
   figures;
 - interface-construction, retrieval/reranking, reader-adaptation, evaluation,
@@ -69,25 +68,10 @@ experiments/outputs/consolidated/tables/
 experiments/outputs/consolidated/figures/
 ```
 
-The main paper tables are summarized in
+The main result tables are summarized in
 `experiments/outputs/consolidated/tables/ipm_main_result_tables.md`; the
 appendix and diagnostic tables are available as CSV/MD files in the same
 directory.
-
-## Quick Check: Compile The Manuscript
-
-From the artifact root:
-
-```bash
-cd paper_ipm
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
-
-This should produce `paper_ipm/main.pdf`. During anonymous review, the PDF
-metadata should have an empty `Author` field.
 
 ## Reconstructing Interface Files
 
