@@ -1,0 +1,85 @@
+{
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "train_size": 2000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "raw_support_first",
+    "gold_supporting_sentences",
+    "gold_evidence_triples"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_evidence_triples",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 2000,
+      "updates": 125,
+      "initial_eval_loss": 0.551528001576662,
+      "final_eval_loss": 0.002092220727208769,
+      "elapsed_seconds": 140.28795409202576,
+      "exact_match": 0.9866666666666667,
+      "f1": 0.9895238095238095,
+      "answer_contained": 0.9866666666666667,
+      "avg_prompt_tokens": 104.80666666666667,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_3b/gold_triples_r8_n2000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_3b/gold_triples_lora_r8_n2000_eval300/summary.json"
+    },
+    {
+      "interface_name": "gold_supporting_sentences",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 2000,
+      "updates": 125,
+      "initial_eval_loss": 1.292784356623888,
+      "final_eval_loss": 0.1484409178281203,
+      "elapsed_seconds": 240.64925336837769,
+      "exact_match": 0.74,
+      "f1": 0.7930343915343915,
+      "answer_contained": 0.78,
+      "avg_prompt_tokens": 154.62333333333333,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_3b/gold_r8_n2000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_3b/gold_lora_r8_n2000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 2000,
+      "updates": 125,
+      "initial_eval_loss": 2.14659027710557,
+      "final_eval_loss": 0.3796981938346289,
+      "elapsed_seconds": 578.4103181362152,
+      "exact_match": 0.5166666666666667,
+      "f1": 0.5773253968253969,
+      "answer_contained": 0.5566666666666666,
+      "avg_prompt_tokens": 1007.9733333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_3b/raw_context_r8_n2000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_3b/raw_context_lora_r8_n2000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 2000,
+      "updates": 125,
+      "initial_eval_loss": 1.9323353044688703,
+      "final_eval_loss": 0.28553875821060504,
+      "elapsed_seconds": 460.7514216899872,
+      "exact_match": 0.5766666666666667,
+      "f1": 0.6441904761904762,
+      "answer_contained": 0.6133333333333333,
+      "avg_prompt_tokens": 1007.9733333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_3b/raw_support_first_r8_n2000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_3b/raw_support_first_lora_r8_n2000_eval300/summary.json"
+    }
+  ]
+}

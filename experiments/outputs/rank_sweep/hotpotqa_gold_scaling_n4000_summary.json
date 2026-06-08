@@ -1,0 +1,31 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "train_size": 4000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "gold_supporting_sentences"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_sentences",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 4000,
+      "updates": 250,
+      "initial_eval_loss": 1.0371910997480154,
+      "final_eval_loss": 0.4018144534435123,
+      "elapsed_seconds": 267.07568621635437,
+      "exact_match": 0.5866666666666667,
+      "f1": 0.7251878306878307,
+      "answer_contained": 0.6266666666666667,
+      "avg_prompt_tokens": 157.93333333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/gold_r8_n4000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/gold_lora_r8_n4000_eval300/summary.json"
+    }
+  ]
+}

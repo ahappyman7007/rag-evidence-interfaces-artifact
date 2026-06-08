@@ -1,0 +1,67 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "train_size": 500,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "gold_plus_1_distractor",
+    "gold_plus_3_distractors",
+    "raw_support_first"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_plus_1_distractor",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.1523071971535683,
+      "final_eval_loss": 0.5421457361150533,
+      "elapsed_seconds": 36.84572720527649,
+      "exact_match": 0.44333333333333336,
+      "f1": 0.566011544011544,
+      "answer_contained": 0.49666666666666665,
+      "avg_prompt_tokens": 307.5733333333333,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/gold_plus1_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/gold_plus1_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "gold_plus_3_distractors",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.5689161071926356,
+      "final_eval_loss": 0.5556546229240484,
+      "elapsed_seconds": 63.84041142463684,
+      "exact_match": 0.44666666666666666,
+      "f1": 0.5640815850815851,
+      "answer_contained": 0.49,
+      "avg_prompt_tokens": 594.4633333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/gold_plus3_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/gold_plus3_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.7068964758515357,
+      "final_eval_loss": 0.6361068349645939,
+      "elapsed_seconds": 98.94744944572449,
+      "exact_match": 0.41,
+      "f1": 0.5386576691282574,
+      "answer_contained": 0.44333333333333336,
+      "avg_prompt_tokens": 1427.7066666666667,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_pilot/raw_support_first_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/raw_support_first_lora_r8_n500_eval300/summary.json"
+    }
+  ]
+}

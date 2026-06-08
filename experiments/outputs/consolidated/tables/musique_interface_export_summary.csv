@@ -1,0 +1,13 @@
+dataset,split,interface,source_examples,expanded_rows,input_median,input_mean,evidence_median,evidence_mean,support_doc_count_mean,bm25_support_in_window_mean,bm25_all_support_rate
+MuSiQue,train,no_context,5000,30000,23.0,24.0124,0.0,0.0,2.3458,,
+MuSiQue,train,raw_context,5000,30000,1639.0,1668.6434,1610.0,1640.631,2.3458,,
+MuSiQue,train,gold_supporting_paragraphs,5000,30000,212.5,235.1148,185.0,207.1024,2.3458,,
+MuSiQue,train,raw_support_first,5000,30000,1639.0,1668.6434,1610.0,1640.631,2.3458,,
+MuSiQue,train,raw_bm25_order,5000,30000,1639.0,1668.6434,1610.0,1640.631,2.3458,,
+MuSiQue,train,raw_bm25_top5docs,5000,30000,431.0,449.034,403.0,421.0216,2.3458,1.3874,0.2806
+MuSiQue,validation,no_context,1000,6000,25.0,25.994,0.0,0.0,2.638,,
+MuSiQue,validation,raw_context,1000,6000,1692.5,1714.625,1663.0,1684.631,2.638,,
+MuSiQue,validation,gold_supporting_paragraphs,1000,6000,242.0,265.774,214.0,235.78,2.638,,
+MuSiQue,validation,raw_support_first,1000,6000,1692.5,1714.625,1663.0,1684.631,2.638,,
+MuSiQue,validation,raw_bm25_order,1000,6000,1692.5,1714.625,1663.0,1684.631,2.638,,
+MuSiQue,validation,raw_bm25_top5docs,1000,6000,447.0,466.446,415.0,436.452,2.638,1.462,0.206

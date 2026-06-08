@@ -1,0 +1,12 @@
+model_label,interface_name,interface_label,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,avg_prompt_tokens,truncated_count,source_summary
+Llama-3.2-1B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,500,32,0.758255,0.373333,0.475083,0.39,662.69,0,rank_sweep/hotpotqa_ftcrossenc_retrieval_lora_r8_n500_summary.json
+Llama-3.2-1B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,1000,63,0.729253,0.413333,0.519908,0.43,662.69,0,rank_sweep/hotpotqa_ftcrossenc_top5docs_lora_r8_n1000_summary.json
+Llama-3.2-1B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,2000,125,0.679972,0.476667,0.586186,0.486667,662.69,0,rank_sweep/hotpotqa_ftcrossenc_top5docs_lora_r8_n2000_summary.json
+Llama-3.2-1B,raw_ftcrossenc_order,FT cross-enc order,500,32,0.689117,0.35,0.462757,0.376667,1427.7066666666667,1,rank_sweep/hotpotqa_ftcrossenc_retrieval_lora_r8_n500_summary.json
+Llama-3.2-1B,raw_ftcrossenc_order,FT cross-enc order,1000,63,0.658653,0.396667,0.503483,0.413333,1427.7066666666667,1,rank_sweep/hotpotqa_ftcrossenc_order_lora_r8_n1000_summary.json
+Llama-3.2-1B,raw_ftcrossenc_order,FT cross-enc order,2000,125,0.593289,0.45,0.566512,0.46,1427.7066666666667,1,rank_sweep/hotpotqa_ftcrossenc_order_lora_r8_n2000_summary.json
+Llama-3.2-3B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,500,32,0.630011,0.5,0.635704,0.536667,662.69,0,rank_sweep/hotpotqa_larger_model_3b_ftcrossenc_top5docs_n500_summary.json
+Llama-3.2-3B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,1000,63,0.604199,0.543333,0.667615,0.57,662.69,0,rank_sweep/hotpotqa_larger_model_3b_ftcrossenc_top5docs_n1000_summary.json
+Llama-3.2-3B,raw_ftcrossenc_top5docs,FT cross-enc top 5 docs,2000,125,0.543692,0.59,0.715113,0.61,662.69,0,rank_sweep/hotpotqa_larger_model_3b_ftcrossenc_top5docs_n2000_summary.json
+Llama-3.2-3B,raw_ftcrossenc_order,FT cross-enc order,500,32,0.575781,0.486667,0.621906,0.533333,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_ftcrossenc_order_n500_summary.json
+Llama-3.2-3B,raw_ftcrossenc_order,FT cross-enc order,1000,63,0.550871,0.533333,0.668837,0.57,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_ftcrossenc_order_n1000_summary.json

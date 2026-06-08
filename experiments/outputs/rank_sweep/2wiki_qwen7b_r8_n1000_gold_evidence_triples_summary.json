@@ -1,0 +1,31 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "gold_evidence_triples"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_evidence_triples",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 0.17878956682048738,
+      "final_eval_loss": 0.03067232516303193,
+      "elapsed_seconds": 122.50928902626038,
+      "exact_match": 0.9266666666666666,
+      "f1": 0.9266666666666666,
+      "answer_contained": 0.9266666666666666,
+      "avg_prompt_tokens": 100.22,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_qwen7b/gold_triples_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_qwen7b/gold_triples_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

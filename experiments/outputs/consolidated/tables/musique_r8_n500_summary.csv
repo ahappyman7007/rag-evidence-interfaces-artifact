@@ -1,0 +1,11 @@
+dataset,model,interface,train_size,rank,em,f1,answer_contained,avg_prompt_tokens,truncated_count,final_eval_loss,eval_summary_path
+MuSiQue,1B,no_context,500,8,0.016666666666666666,0.08512141464773045,0.023333333333333334,68.26666666666667,0,2.5192404413223266,experiments/outputs/smoke_test_musique_1b/no_context_lora_r8_n500_eval300/summary.json
+MuSiQue,1B,raw_context,500,8,0.08333333333333333,0.15068612868612868,0.09333333333333334,2379.4866666666667,28,1.2949273405701387,experiments/outputs/smoke_test_musique_1b/raw_context_lora_r8_n500_eval300/summary.json
+MuSiQue,1B,raw_bm25_top5docs,500,8,0.06,0.12022710622710622,0.06333333333333334,664.8733333333333,0,1.87166285187006,experiments/outputs/smoke_test_musique_1b/raw_bm25_top5docs_lora_r8_n500_eval300/summary.json
+MuSiQue,1B,raw_support_first,500,8,0.25333333333333335,0.3503900715841892,0.27,2379.4866666666667,28,0.8819800253739232,experiments/outputs/smoke_test_musique_1b/raw_support_first_lora_r8_n500_eval300/summary.json
+MuSiQue,1B,gold_supporting_paragraphs,500,8,0.27,0.3748096718096718,0.29333333333333333,396.36333333333334,0,0.7033736322075128,experiments/outputs/smoke_test_musique_1b/gold_paragraphs_lora_r8_n500_eval300/summary.json
+MuSiQue,3B,no_context,500,8,0.03666666666666667,0.11970779220779221,0.04,68.26666666666667,0,2.239989538192749,experiments/outputs/smoke_test_musique_3b/no_context_lora_r8_n500_eval300/summary.json
+MuSiQue,3B,raw_context,500,8,0.17666666666666667,0.2589789283413354,0.18666666666666668,2379.4866666666667,28,0.9226755207643146,experiments/outputs/smoke_test_musique_3b/raw_context_lora_r8_n500_eval300/summary.json
+MuSiQue,3B,raw_bm25_top5docs,500,8,0.11,0.1854492756698639,0.11666666666666667,664.8733333333333,0,1.4984235942177475,experiments/outputs/smoke_test_musique_3b/raw_bm25_top5docs_lora_r8_n500_eval300/summary.json
+MuSiQue,3B,raw_support_first,500,8,0.35,0.4667413724383034,0.38,2379.4866666666667,28,0.6360035470558796,experiments/outputs/smoke_test_musique_3b/raw_support_first_lora_r8_n500_eval300/summary.json
+MuSiQue,3B,gold_supporting_paragraphs,500,8,0.4,0.5219822595704948,0.44666666666666666,396.36333333333334,0,0.4656876023858786,experiments/outputs/smoke_test_musique_3b/gold_paragraphs_lora_r8_n500_eval300/summary.json

@@ -1,0 +1,31 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+  "train_size": 500,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.4304793992565994,
+      "final_eval_loss": 0.5086782805313124,
+      "elapsed_seconds": 997.6525695323944,
+      "exact_match": 0.6,
+      "f1": 0.7350135481802148,
+      "answer_contained": 0.6466666666666666,
+      "avg_prompt_tokens": 1484.2633333333333,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_qwen32b/raw_context_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_qwen32b/raw_context_lora_r8_n500_eval300/summary.json"
+    }
+  ]
+}

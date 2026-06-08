@@ -1,0 +1,49 @@
+{
+  "model_id": "google/gemma-2-9b-it",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "raw_support_first"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 3.127705609202385,
+      "final_eval_loss": 0.534262735400116,
+      "elapsed_seconds": 1058.9372141361237,
+      "exact_match": 0.5566666666666666,
+      "f1": 0.7134030969030969,
+      "answer_contained": 0.5833333333333334,
+      "avg_prompt_tokens": 1434.0166666666667,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_gemma2_9b/raw_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_gemma2_9b/raw_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 3.0568898344039916,
+      "final_eval_loss": 0.47464567740564234,
+      "elapsed_seconds": 770.9107146263123,
+      "exact_match": 0.63,
+      "f1": 0.7756311514995725,
+      "answer_contained": 0.67,
+      "avg_prompt_tokens": 1434.0166666666667,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_gemma2_9b/raw_support_first_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_gemma2_9b/raw_support_first_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+model_label,interface_name,interface_label,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,avg_prompt_tokens,truncated_count,source_summary
+Llama-3.2-1B,raw_context,Raw context,500,32,0.898704,0.266667,0.379492,0.3,1427.7066666666667,1,rank_sweep/hotpotqa_lora_rank_sweep_summary.json
+Llama-3.2-1B,raw_support_shuffled,Support shuffled,500,32,0.858794,0.29,0.395571,0.323333,1427.7066666666667,1,rank_sweep/hotpotqa_position_shuffled_lora_r8_summary.json
+Llama-3.2-1B,raw_support_middle,Support middle,500,32,0.860122,0.283333,0.400746,0.31,1427.7066666666667,1,rank_sweep/hotpotqa_position_middle_lora_r8_summary.json
+Llama-3.2-1B,raw_support_last,Support last,500,32,0.726582,0.31,0.442754,0.35,1427.71,1,rank_sweep/hotpotqa_position_stress_lora_r8_summary.json
+Llama-3.2-1B,raw_support_first,Support first,500,32,0.636107,0.41,0.538658,0.443333,1427.7066666666667,1,rank_sweep/hotpotqa_evidence_quality_lora_r8_summary.json

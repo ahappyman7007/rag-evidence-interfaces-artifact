@@ -1,0 +1,21 @@
+{
+  "tables": [
+    "tables/ipm_all_rank_sweep_results.csv",
+    "tables/ipm_qwen14b_n4000_interface_hierarchy.csv",
+    "tables/ipm_qwen14b_n4000_interface_hierarchy_pivot.csv",
+    "tables/ipm_qwen14b_n2000_controls.csv",
+    "tables/ipm_qwen14b_n2000_no_context_gap.csv",
+    "tables/ipm_cross_model_and_small_reader_core.csv",
+    "tables/ipm_support_first_gain_over_raw.csv",
+    "tables/ipm_main_result_tables.md"
+  ],
+  "figures": [
+    "figures/ipm_fig1_qwen14b_interface_hierarchy.pdf",
+    "figures/ipm_fig1_qwen14b_interface_hierarchy.png",
+    "figures/ipm_fig2_support_first_gain.pdf",
+    "figures/ipm_fig2_support_first_gain.png",
+    "figures/ipm_fig3_no_context_gap.pdf",
+    "figures/ipm_fig3_no_context_gap.png"
+  ],
+  "paper_fig_dir": "paper_ipm/figs"
+}

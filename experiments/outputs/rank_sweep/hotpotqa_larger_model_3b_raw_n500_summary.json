@@ -1,0 +1,31 @@
+{
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "train_size": 500,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.8767840022593736,
+      "final_eval_loss": 0.5881896271312144,
+      "elapsed_seconds": 220.8466374874115,
+      "exact_match": 0.42333333333333334,
+      "f1": 0.5552368742368743,
+      "answer_contained": 0.48333333333333334,
+      "avg_prompt_tokens": 1427.7066666666667,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_pilot_3b/raw_context_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_3b/raw_context_lora_r8_n500_eval300/summary.json"
+    }
+  ]
+}

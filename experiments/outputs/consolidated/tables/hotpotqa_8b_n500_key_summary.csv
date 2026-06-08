@@ -1,0 +1,5 @@
+model_label,interface_name,interface_label,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,avg_prompt_tokens,truncated_count,source_summary
+Llama-3.1-8B,raw_context,Raw context,500,32,0.5299180812202394,0.5366666666666666,0.6645776815776816,0.5666666666666667,1427.7066666666667,1,rank_sweep/hotpotqa_8b_r8_n500_key_summary.json
+Llama-3.1-8B,raw_ftcrossenc_top5docs,FT cross-encoder top-5,500,32,0.568235748904408,0.5533333333333333,0.6878607503607503,0.5866666666666667,662.69,0,rank_sweep/hotpotqa_8b_r8_n500_key_summary.json
+Llama-3.1-8B,raw_support_first,Support first,500,32,0.4567477451451123,0.5833333333333334,0.7281423761423761,0.6166666666666667,1427.7066666666667,1,rank_sweep/hotpotqa_8b_r8_n500_key_summary.json
+Llama-3.1-8B,gold_supporting_sentences,Gold evidence,500,32,0.3837815364263952,0.6233333333333333,0.7519309579309579,0.6666666666666666,157.93333333333334,0,rank_sweep/hotpotqa_8b_r8_n500_key_summary.json

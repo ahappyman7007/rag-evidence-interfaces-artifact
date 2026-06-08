@@ -1,0 +1,4 @@
+dataset_label,raw_context,raw_context_tokens,raw_support_first,raw_support_first_tokens,realistic_top5,realistic_top5_tokens,oracle_support,oracle_support_tokens,structured,structured_tokens
+HotpotQA,0.779705,1484.26,0.806075,1484.26,0.76794,685.44,0.795937,156.16,,
+2WikiMultiHopQA,0.78249,1059.25,0.821704,1059.25,0.662632,623.8,0.843989,154.94,0.993333,100.22
+MuSiQue,0.580845,2473.21,0.650864,2473.21,0.459478,699.58,0.747037,404.9,,

@@ -1,0 +1,4 @@
+dataset,dataset_label,top5_interface,top5_method,all_support_recall_at5,mean_support_fraction_at5,raw_f1,top5_f1,support_first_f1,top5_minus_raw_f1,support_first_minus_raw_f1,raw_avg_prompt_tokens,top5_avg_prompt_tokens,token_reduction_vs_raw
+hotpotqa,HotpotQA,raw_ftcrossenc_top5docs,Fine-tuned cross-encoder,0.948,0.9735,0.779705,0.76794,0.806075,-0.011765,0.02637,1484.26,685.44,0.538194
+2wiki,2WikiMultiHopQA,raw_crossenc_top5docs,Cross-encoder,0.597,0.823717,0.78249,0.662632,0.821704,-0.119858,0.039214,1059.25,623.8,0.411093
+musique,MuSiQue,raw_crossenc_top5docs,Cross-encoder,0.313,0.650667,0.580845,0.459478,0.650864,-0.121367,0.070019,2473.21,699.58,0.717137

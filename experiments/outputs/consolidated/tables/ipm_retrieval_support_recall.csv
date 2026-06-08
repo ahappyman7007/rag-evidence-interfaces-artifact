@@ -1,0 +1,36 @@
+dataset,dataset_label,method,method_label,k,examples,avg_effective_k,any_support_recall,all_support_recall,mean_support_fraction,avg_support_docs_in_topk,mean_latest_support_rank,source_file
+hotpotqa,HotpotQA,bm25,BM25,1,1000,1,0.858,0.0,0.429,0.858,4.537,data/hotpotqa_interfaces/pilot/validation__raw_bm25_order.jsonl
+hotpotqa,HotpotQA,bm25,BM25,3,1000,2.997,0.972,0.513,0.7425,1.485,4.537,data/hotpotqa_interfaces/pilot/validation__raw_bm25_order.jsonl
+hotpotqa,HotpotQA,bm25,BM25,5,1000,4.987,0.994,0.702,0.848,1.696,4.537,data/hotpotqa_interfaces/pilot/validation__raw_bm25_order.jsonl
+hotpotqa,HotpotQA,bm25,BM25,10,1000,9.952,1.0,1.0,1.0,2,4.537,data/hotpotqa_interfaces/pilot/validation__raw_bm25_order.jsonl
+hotpotqa,HotpotQA,bm25,BM25,20,1000,9.952,1.0,1.0,1.0,2,4.537,data/hotpotqa_interfaces/pilot/validation__raw_bm25_order.jsonl
+hotpotqa,HotpotQA,crossenc,Cross-encoder,1,1000,1,0.914,0.0,0.457,0.914,3.942,data/hotpotqa_interfaces/pilot/validation__raw_crossenc_order.jsonl
+hotpotqa,HotpotQA,crossenc,Cross-encoder,3,1000,2.997,0.986,0.635,0.8105,1.621,3.942,data/hotpotqa_interfaces/pilot/validation__raw_crossenc_order.jsonl
+hotpotqa,HotpotQA,crossenc,Cross-encoder,5,1000,4.987,0.995,0.764,0.8795,1.759,3.942,data/hotpotqa_interfaces/pilot/validation__raw_crossenc_order.jsonl
+hotpotqa,HotpotQA,crossenc,Cross-encoder,10,1000,9.952,1.0,1.0,1.0,2,3.942,data/hotpotqa_interfaces/pilot/validation__raw_crossenc_order.jsonl
+hotpotqa,HotpotQA,crossenc,Cross-encoder,20,1000,9.952,1.0,1.0,1.0,2,3.942,data/hotpotqa_interfaces/pilot/validation__raw_crossenc_order.jsonl
+hotpotqa,HotpotQA,ftcrossenc,Fine-tuned cross-encoder,1,1000,1,0.946,0.0,0.473,0.946,2.634,data/hotpotqa_interfaces/pilot/validation__raw_ftcrossenc_order.jsonl
+hotpotqa,HotpotQA,ftcrossenc,Fine-tuned cross-encoder,3,1000,2.997,0.994,0.853,0.9235,1.847,2.634,data/hotpotqa_interfaces/pilot/validation__raw_ftcrossenc_order.jsonl
+hotpotqa,HotpotQA,ftcrossenc,Fine-tuned cross-encoder,5,1000,4.987,0.999,0.948,0.9735,1.947,2.634,data/hotpotqa_interfaces/pilot/validation__raw_ftcrossenc_order.jsonl
+hotpotqa,HotpotQA,ftcrossenc,Fine-tuned cross-encoder,10,1000,9.952,1.0,1.0,1.0,2,2.634,data/hotpotqa_interfaces/pilot/validation__raw_ftcrossenc_order.jsonl
+hotpotqa,HotpotQA,ftcrossenc,Fine-tuned cross-encoder,20,1000,9.952,1.0,1.0,1.0,2,2.634,data/hotpotqa_interfaces/pilot/validation__raw_ftcrossenc_order.jsonl
+2wiki,2WikiMultiHopQA,bm25,BM25,1,1000,1,0.9,0.0,0.394767,0.9,5.562,data/2wiki_interfaces/pilot/validation__raw_bm25_order.jsonl
+2wiki,2WikiMultiHopQA,bm25,BM25,3,1000,3,0.987,0.373,0.690583,1.634,5.562,data/2wiki_interfaces/pilot/validation__raw_bm25_order.jsonl
+2wiki,2WikiMultiHopQA,bm25,BM25,5,1000,5,0.999,0.534,0.78885,1.874,5.562,data/2wiki_interfaces/pilot/validation__raw_bm25_order.jsonl
+2wiki,2WikiMultiHopQA,bm25,BM25,10,1000,10,1.0,1.0,1.0,2.461,5.562,data/2wiki_interfaces/pilot/validation__raw_bm25_order.jsonl
+2wiki,2WikiMultiHopQA,bm25,BM25,20,1000,10,1.0,1.0,1.0,2.461,5.562,data/2wiki_interfaces/pilot/validation__raw_bm25_order.jsonl
+2wiki,2WikiMultiHopQA,crossenc,Cross-encoder,1,1000,1,0.965,0.0,0.425517,0.965,4.883,data/2wiki_interfaces/pilot/validation__raw_crossenc_order.jsonl
+2wiki,2WikiMultiHopQA,crossenc,Cross-encoder,3,1000,3,0.998,0.453,0.734083,1.717,4.883,data/2wiki_interfaces/pilot/validation__raw_crossenc_order.jsonl
+2wiki,2WikiMultiHopQA,crossenc,Cross-encoder,5,1000,5,1.0,0.597,0.823717,1.954,4.883,data/2wiki_interfaces/pilot/validation__raw_crossenc_order.jsonl
+2wiki,2WikiMultiHopQA,crossenc,Cross-encoder,10,1000,10,1.0,1.0,1.0,2.461,4.883,data/2wiki_interfaces/pilot/validation__raw_crossenc_order.jsonl
+2wiki,2WikiMultiHopQA,crossenc,Cross-encoder,20,1000,10,1.0,1.0,1.0,2.461,4.883,data/2wiki_interfaces/pilot/validation__raw_crossenc_order.jsonl
+musique,MuSiQue,bm25,BM25,1,1000,1,0.668,0.0,0.271167,0.668,12.527,data/musique_interfaces/pilot/validation__raw_bm25_order.jsonl
+musique,MuSiQue,bm25,BM25,3,1000,3,0.868,0.119,0.469917,1.184,12.527,data/musique_interfaces/pilot/validation__raw_bm25_order.jsonl
+musique,MuSiQue,bm25,BM25,5,1000,5,0.931,0.206,0.571083,1.462,12.527,data/musique_interfaces/pilot/validation__raw_bm25_order.jsonl
+musique,MuSiQue,bm25,BM25,10,1000,10,0.975,0.412,0.71725,1.868,12.527,data/musique_interfaces/pilot/validation__raw_bm25_order.jsonl
+musique,MuSiQue,bm25,BM25,20,1000,19.988,1.0,1.0,1.0,2.638,12.527,data/musique_interfaces/pilot/validation__raw_bm25_order.jsonl
+musique,MuSiQue,crossenc,Cross-encoder,1,1000,1,0.797,0.0,0.32525,0.797,10.536,data/musique_interfaces/pilot/validation__raw_crossenc_order.jsonl
+musique,MuSiQue,crossenc,Cross-encoder,3,1000,3,0.942,0.197,0.558833,1.408,10.536,data/musique_interfaces/pilot/validation__raw_crossenc_order.jsonl
+musique,MuSiQue,crossenc,Cross-encoder,5,1000,5,0.966,0.313,0.650667,1.662,10.536,data/musique_interfaces/pilot/validation__raw_crossenc_order.jsonl
+musique,MuSiQue,crossenc,Cross-encoder,10,1000,10,0.993,0.527,0.785833,2.033,10.536,data/musique_interfaces/pilot/validation__raw_crossenc_order.jsonl
+musique,MuSiQue,crossenc,Cross-encoder,20,1000,19.988,1.0,1.0,1.0,2.638,10.536,data/musique_interfaces/pilot/validation__raw_crossenc_order.jsonl

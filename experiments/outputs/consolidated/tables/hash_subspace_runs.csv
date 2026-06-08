@@ -1,0 +1,24 @@
+model_label,interface_name,interface_label,method,seed,active_dim,used_dim,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,source_summary
+Llama-3.2-1B,raw_context,Raw context,hash_projection,101,65536,65536,500,32,1.303555,0.14,0.21701,0.16,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,202,65536,65536,500,32,1.300067,0.15,0.231582,0.17,subspace_sweep/hotpotqa_hash_subspace_seed202_d65536_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,303,65536,65536,500,32,1.300338,0.15,0.23101,0.17,subspace_sweep/hotpotqa_hash_subspace_seed303_d65536_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,101,131072,131072,500,32,1.195914,0.16,0.240161,0.17,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,101,262144,261723,500,32,1.110338,0.183333,0.268217,0.196667,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,202,262144,261727,500,32,1.107159,0.18,0.259562,0.19,subspace_sweep/hotpotqa_hash_subspace_seed202_d262144_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,303,262144,261742,500,32,1.108159,0.186667,0.267943,0.196667,subspace_sweep/hotpotqa_hash_subspace_seed303_d262144_summary.json
+Llama-3.2-1B,raw_context,Raw context,hash_projection,101,524288,503907,500,32,1.044927,0.196667,0.282777,0.21,subspace_sweep/hotpotqa_hash_subspace_raw_seed101_d524288_summary.json
+Llama-3.2-1B,raw_support_first,Support first,hash_projection,101,65536,65536,500,32,1.057964,0.246667,0.34554,0.266667,subspace_sweep/hotpotqa_evidence_quality_hash_seed101_summary.json
+Llama-3.2-1B,raw_support_first,Support first,hash_projection,202,65536,65536,500,32,1.058759,0.24,0.341635,0.266667,subspace_sweep/hotpotqa_evidence_quality_hash_seed202_summary.json
+Llama-3.2-1B,raw_support_first,Support first,hash_projection,101,262144,261723,500,32,0.872896,0.27,0.380854,0.29,subspace_sweep/hotpotqa_evidence_quality_hash_seed101_summary.json
+Llama-3.2-1B,raw_support_first,Support first,hash_projection,202,262144,261727,500,32,0.873008,0.266667,0.375796,0.283333,subspace_sweep/hotpotqa_evidence_quality_hash_seed202_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,101,65536,65536,500,32,0.812556,0.4,0.514263,0.436667,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,202,65536,65536,500,32,0.817186,0.4,0.511962,0.433333,subspace_sweep/hotpotqa_hash_subspace_seed202_d65536_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,303,65536,65536,500,32,0.815218,0.4,0.514819,0.436667,subspace_sweep/hotpotqa_hash_subspace_seed303_d65536_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,101,131072,131072,500,32,0.740345,0.413333,0.521898,0.443333,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,101,262144,261723,500,32,0.678737,0.416667,0.529581,0.44,subspace_sweep/hotpotqa_hash_subspace_sweep_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,202,262144,261727,500,32,0.67965,0.41,0.52634,0.433333,subspace_sweep/hotpotqa_hash_subspace_seed202_d262144_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,hash_projection,303,262144,261742,500,32,0.683675,0.41,0.526247,0.433333,subspace_sweep/hotpotqa_hash_subspace_seed303_d262144_summary.json
+Llama-3.2-1B,gold_plus_3_distractors,Gold + 3 distractors,hash_projection,101,65536,65536,500,32,0.897602,0.356667,0.469751,0.406667,subspace_sweep/hotpotqa_evidence_quality_hash_seed101_summary.json
+Llama-3.2-1B,gold_plus_3_distractors,Gold + 3 distractors,hash_projection,202,65536,65536,500,32,0.90157,0.346667,0.461973,0.396667,subspace_sweep/hotpotqa_evidence_quality_hash_seed202_summary.json
+Llama-3.2-1B,gold_plus_3_distractors,Gold + 3 distractors,hash_projection,101,262144,261723,500,32,0.735386,0.346667,0.462135,0.383333,subspace_sweep/hotpotqa_evidence_quality_hash_seed101_summary.json
+Llama-3.2-1B,gold_plus_3_distractors,Gold + 3 distractors,hash_projection,202,262144,261727,500,32,0.731225,0.353333,0.467317,0.39,subspace_sweep/hotpotqa_evidence_quality_hash_seed202_summary.json

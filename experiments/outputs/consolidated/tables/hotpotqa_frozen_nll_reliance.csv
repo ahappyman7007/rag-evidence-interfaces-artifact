@@ -1,0 +1,19 @@
+run,interface,valid_n,token_weighted_nll_per_token,mean_answer_nll,mean_prompt_tokens,truncated_count,mean_utility_nll_per_token_vs_no_context,positive_utility_rate_vs_no_context
+1B frozen,no_context,300,2.973996,14.483363,66.197,0,,
+1B frozen,raw_context,299,1.734168,8.450446,1426.710,1,1.054945,0.732441
+1B frozen,raw_context_no_support_docs,300,3.578569,17.427631,1216.000,0,-0.676750,0.223333
+1B frozen,raw_support_first,299,1.540990,7.509104,1426.710,1,1.277738,0.782609
+1B frozen,raw_support_first_no_support_docs,300,3.578569,17.427631,1216.000,0,-0.676750,0.223333
+1B frozen,gold_supporting_sentences,300,0.918259,4.471923,156.933,0,2.000958,0.930000
+1B frozen,gold_supporting_sentences_no_support_docs,300,2.801181,13.641752,71.197,0,0.276487,0.670000
+1B frozen,raw_ftcrossenc_top5docs,300,1.474367,7.180166,661.690,0,1.379976,0.810000
+1B frozen,raw_ftcrossenc_top5docs_no_support_docs,300,3.409336,16.603466,458.133,0,-0.487337,0.326667
+3B frozen,no_context,300,3.085624,15.026989,66.197,0,,
+3B frozen,raw_context,299,1.643936,8.010752,1426.710,1,1.362266,0.769231
+3B frozen,raw_context_no_support_docs,300,3.591877,17.492440,1216.000,0,-0.478996,0.350000
+3B frozen,raw_support_first,299,1.465513,7.141311,1426.710,1,1.570227,0.809365
+3B frozen,raw_support_first_no_support_docs,300,3.591877,17.492440,1216.000,0,-0.478996,0.350000
+3B frozen,gold_supporting_sentences,300,1.291188,6.288084,156.933,0,1.740075,0.816667
+3B frozen,gold_supporting_sentences_no_support_docs,300,3.261987,15.885878,71.197,0,-0.148219,0.363333
+3B frozen,raw_ftcrossenc_top5docs,300,1.673539,8.150135,661.690,0,1.365452,0.740000
+3B frozen,raw_ftcrossenc_top5docs_no_support_docs,300,3.761361,18.317829,458.133,0,-0.702813,0.273333

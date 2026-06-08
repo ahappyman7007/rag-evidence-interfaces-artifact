@@ -1,0 +1,103 @@
+{
+  "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "train_size": 500,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "no_context",
+    "raw_context",
+    "gold_supporting_paragraphs",
+    "raw_support_first",
+    "raw_bm25_top5docs"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_paragraphs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.6915829765796662,
+      "final_eval_loss": 0.4656876023858786,
+      "elapsed_seconds": 85.9243016242981,
+      "exact_match": 0.4,
+      "f1": 0.5219822595704948,
+      "answer_contained": 0.44666666666666666,
+      "avg_prompt_tokens": 396.36333333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_3b/gold_paragraphs_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_3b/gold_paragraphs_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "no_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 3.8803961515426635,
+      "final_eval_loss": 2.239989538192749,
+      "elapsed_seconds": 33.44383788108826,
+      "exact_match": 0.03666666666666667,
+      "f1": 0.11970779220779221,
+      "answer_contained": 0.04,
+      "avg_prompt_tokens": 68.26666666666667,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_3b/no_context_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_3b/no_context_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_bm25_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 3.4140714080631733,
+      "final_eval_loss": 1.4984235942177475,
+      "elapsed_seconds": 107.67922711372375,
+      "exact_match": 0.11,
+      "f1": 0.1854492756698639,
+      "answer_contained": 0.11666666666666667,
+      "avg_prompt_tokens": 664.8733333333333,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_3b/raw_bm25_top5docs_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_3b/raw_bm25_top5docs_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 2.388359959868394,
+      "final_eval_loss": 0.9226755207643146,
+      "elapsed_seconds": 529.4835569858551,
+      "exact_match": 0.17666666666666667,
+      "f1": 0.2589789283413354,
+      "answer_contained": 0.18666666666666668,
+      "avg_prompt_tokens": 2379.4866666666667,
+      "truncated_count": 28,
+      "adapter_path": "experiments/outputs/lora_musique_3b/raw_context_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_3b/raw_context_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.9949453753550188,
+      "final_eval_loss": 0.6360035470558796,
+      "elapsed_seconds": 234.13898587226868,
+      "exact_match": 0.35,
+      "f1": 0.4667413724383034,
+      "answer_contained": 0.38,
+      "avg_prompt_tokens": 2379.4866666666667,
+      "truncated_count": 28,
+      "adapter_path": "experiments/outputs/lora_musique_3b/raw_support_first_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_3b/raw_support_first_lora_r8_n500_eval300/summary.json"
+    }
+  ]
+}

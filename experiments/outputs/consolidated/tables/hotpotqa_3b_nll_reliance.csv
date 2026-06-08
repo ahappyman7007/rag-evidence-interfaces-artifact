@@ -1,0 +1,13 @@
+run,interface,valid_n,token_weighted_nll_per_token,mean_answer_nll,mean_prompt_tokens,truncated_count,mean_utility_nll_per_token_vs_no_context,positive_utility_rate_vs_no_context
+3B raw-context adapter n=2000,no_context,300,2.065468,10.058830,66.197,0,,
+3B raw-context adapter n=2000,raw_context,299,0.443035,2.158869,1426.710,1,1.481604,0.933110
+3B raw-context adapter n=2000,raw_context_no_support_docs,300,2.468268,12.020467,1216.000,0,-0.443066,0.333333
+3B support-first adapter n=2000,no_context,300,2.085550,10.156630,66.197,0,,
+3B support-first adapter n=2000,raw_support_first,299,0.413137,2.013181,1426.710,1,1.526314,0.939799
+3B support-first adapter n=2000,raw_support_first_no_support_docs,300,3.052445,14.865409,1216.000,0,-1.027377,0.233333
+3B gold adapter n=2000,no_context,300,2.017665,9.826030,66.197,0,,
+3B gold adapter n=2000,gold_supporting_sentences,300,0.356041,1.733920,156.933,0,1.515745,0.933333
+3B gold adapter n=2000,gold_supporting_sentences_no_support_docs,300,2.049316,9.980168,71.197,0,-0.017191,0.420000
+3B ft-crossenc top5 adapter n=2000,no_context,300,2.047804,9.972804,66.197,0,,
+3B ft-crossenc top5 adapter n=2000,raw_ftcrossenc_top5docs,300,0.516227,2.514028,661.690,0,1.415478,0.916667
+3B ft-crossenc top5 adapter n=2000,raw_ftcrossenc_top5docs_no_support_docs,300,2.527356,12.308224,458.133,0,-0.550226,0.293333

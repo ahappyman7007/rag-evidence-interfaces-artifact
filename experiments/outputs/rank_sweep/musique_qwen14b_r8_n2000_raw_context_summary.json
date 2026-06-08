@@ -1,0 +1,31 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+  "train_size": 2000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 2000,
+      "updates": 125,
+      "initial_eval_loss": 1.2985646320370143,
+      "final_eval_loss": 0.6533835583152177,
+      "elapsed_seconds": 3370.5894207954407,
+      "exact_match": 0.4633333333333333,
+      "f1": 0.5621854681266446,
+      "answer_contained": 0.48333333333333334,
+      "avg_prompt_tokens": 2473.2066666666665,
+      "truncated_count": 37,
+      "adapter_path": "experiments/outputs/lora_musique_qwen14b/raw_context_r8_n2000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_qwen14b/raw_context_lora_r8_n2000_eval300/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "raw_support_first"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 5.618112416267395,
+      "final_eval_loss": 0.47126650105929,
+      "elapsed_seconds": 949.0897762775421,
+      "exact_match": 0.53,
+      "f1": 0.6844641654641654,
+      "answer_contained": 0.6,
+      "avg_prompt_tokens": 1611.29,
+      "truncated_count": 2,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_mistral7b/raw_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_mistral7b/raw_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 4.865859379172325,
+      "final_eval_loss": 0.3877773966034874,
+      "elapsed_seconds": 2073.0932989120483,
+      "exact_match": 0.6133333333333333,
+      "f1": 0.7651017316017316,
+      "answer_contained": 0.6666666666666666,
+      "avg_prompt_tokens": 1611.29,
+      "truncated_count": 2,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_mistral7b/raw_support_first_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_mistral7b/raw_support_first_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

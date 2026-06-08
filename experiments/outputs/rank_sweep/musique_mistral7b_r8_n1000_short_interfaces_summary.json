@@ -1,0 +1,67 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "no_context",
+    "raw_crossenc_top5docs",
+    "gold_supporting_paragraphs"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_paragraphs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 3.9251582193374634,
+      "final_eval_loss": 0.29477415872272106,
+      "elapsed_seconds": 767.8073770999908,
+      "exact_match": 0.54,
+      "f1": 0.6593303751059169,
+      "answer_contained": 0.6066666666666667,
+      "avg_prompt_tokens": 424.9,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_mistral7b/gold_paragraphs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_mistral7b/gold_paragraphs_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "no_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 5.909082660675049,
+      "final_eval_loss": 1.5425102639198303,
+      "elapsed_seconds": 127.41555857658386,
+      "exact_match": 0.04666666666666667,
+      "f1": 0.1346725981553568,
+      "answer_contained": 0.056666666666666664,
+      "avg_prompt_tokens": 42.13,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_mistral7b/no_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_mistral7b/no_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_crossenc_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 6.028207478523254,
+      "final_eval_loss": 0.8191207887604832,
+      "elapsed_seconds": 1119.1964721679688,
+      "exact_match": 0.27,
+      "f1": 0.4074587740491614,
+      "answer_contained": 0.30333333333333334,
+      "avg_prompt_tokens": 747.4033333333333,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_mistral7b/raw_crossenc_top5docs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_mistral7b/raw_crossenc_top5docs_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

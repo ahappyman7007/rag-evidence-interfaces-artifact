@@ -1,0 +1,49 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "gold_supporting_sentences"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_sentences",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.0371910997480154,
+      "final_eval_loss": 0.5129892561025917,
+      "elapsed_seconds": 66.88352560997009,
+      "exact_match": 0.5133333333333333,
+      "f1": 0.6437549302549302,
+      "answer_contained": 0.5566666666666666,
+      "avg_prompt_tokens": 157.93333333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/gold_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/gold_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.956615485548973,
+      "final_eval_loss": 0.7878451953252079,
+      "elapsed_seconds": 171.15963625907898,
+      "exact_match": 0.31333333333333335,
+      "f1": 0.42567460317460315,
+      "answer_contained": 0.33666666666666667,
+      "avg_prompt_tokens": 1427.7066666666667,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_pilot/raw_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/raw_context_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

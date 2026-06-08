@@ -1,0 +1,31 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_ftcrossenc_top5docs"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_ftcrossenc_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.1146493412170093,
+      "final_eval_loss": 0.5051824261643924,
+      "elapsed_seconds": 731.9926481246948,
+      "exact_match": 0.6,
+      "f1": 0.7462763347763348,
+      "answer_contained": 0.64,
+      "avg_prompt_tokens": 685.4433333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_hotpotqa_qwen14b/raw_ftcrossenc_top5docs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_hotpotqa_qwen14b/raw_ftcrossenc_top5docs_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

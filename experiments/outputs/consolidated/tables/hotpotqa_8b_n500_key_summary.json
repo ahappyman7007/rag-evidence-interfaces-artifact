@@ -1,0 +1,58 @@
+[
+  {
+    "model_label": "Llama-3.1-8B",
+    "interface_name": "raw_context",
+    "interface_label": "Raw context",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.5299180812202394,
+    "exact_match": 0.5366666666666666,
+    "f1": 0.6645776815776816,
+    "answer_contained": 0.5666666666666667,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_8b_r8_n500_key_summary.json"
+  },
+  {
+    "model_label": "Llama-3.1-8B",
+    "interface_name": "raw_ftcrossenc_top5docs",
+    "interface_label": "FT cross-encoder top-5",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.568235748904408,
+    "exact_match": 0.5533333333333333,
+    "f1": 0.6878607503607503,
+    "answer_contained": 0.5866666666666667,
+    "avg_prompt_tokens": 662.69,
+    "truncated_count": 0,
+    "source_summary": "rank_sweep/hotpotqa_8b_r8_n500_key_summary.json"
+  },
+  {
+    "model_label": "Llama-3.1-8B",
+    "interface_name": "raw_support_first",
+    "interface_label": "Support first",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.4567477451451123,
+    "exact_match": 0.5833333333333334,
+    "f1": 0.7281423761423761,
+    "answer_contained": 0.6166666666666667,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_8b_r8_n500_key_summary.json"
+  },
+  {
+    "model_label": "Llama-3.1-8B",
+    "interface_name": "gold_supporting_sentences",
+    "interface_label": "Gold evidence",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.3837815364263952,
+    "exact_match": 0.6233333333333333,
+    "f1": 0.7519309579309579,
+    "answer_contained": 0.6666666666666666,
+    "avg_prompt_tokens": 157.93333333333334,
+    "truncated_count": 0,
+    "source_summary": "rank_sweep/hotpotqa_8b_r8_n500_key_summary.json"
+  }
+]

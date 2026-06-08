@@ -1,0 +1,481 @@
+\begin{thebibliography}{49}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
+  Kuttler, Lewis, Yih, Rocktaschel, Riedel, and Kiela}]{lewis2020rag}
+\bibinfo{author}{P.~Lewis}, \bibinfo{author}{E.~Perez},
+  \bibinfo{author}{A.~Piktus}, \bibinfo{author}{F.~Petroni},
+  \bibinfo{author}{V.~Karpukhin}, \bibinfo{author}{N.~Goyal},
+  \bibinfo{author}{H.~Kuttler}, \bibinfo{author}{M.~Lewis},
+  \bibinfo{author}{W.-t. Yih}, \bibinfo{author}{T.~Rocktaschel},
+  \bibinfo{author}{S.~Riedel}, \bibinfo{author}{D.~Kiela},
+\newblock \bibinfo{title}{Retrieval-augmented generation for
+  knowledge-intensive nlp tasks},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}, volume~\bibinfo{volume}{33}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{9459--9474}. \href{http://arxiv.org/abs/2005.11401}{\tt
+  arXiv:2005.11401}.
+%Type = Inproceedings
+\bibitem[{Karpukhin et~al.(2020)Karpukhin, Oguz, Min, Lewis, Wu, Edunov, Chen,
+  and Yih}]{karpukhin2020dpr}
+\bibinfo{author}{V.~Karpukhin}, \bibinfo{author}{B.~Oguz},
+  \bibinfo{author}{S.~Min}, \bibinfo{author}{P.~Lewis},
+  \bibinfo{author}{L.~Wu}, \bibinfo{author}{S.~Edunov},
+  \bibinfo{author}{D.~Chen}, \bibinfo{author}{W.-t. Yih},
+\newblock \bibinfo{title}{Dense passage retrieval for open-domain question
+  answering},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2020 Conference on
+  Empirical Methods in Natural Language Processing}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{6769--6781}. \DOIprefix\doi{10.18653/v1/2020.emnlp-main.550}.
+%Type = Inproceedings
+\bibitem[{Khattab and Zaharia(2020)}]{khattab2020colbert}
+\bibinfo{author}{O.~Khattab}, \bibinfo{author}{M.~Zaharia},
+\newblock \bibinfo{title}{{ColBERT}: Efficient and effective passage search via
+  contextualized late interaction over {BERT}},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 43rd International ACM
+  SIGIR Conference on Research and Development in Information Retrieval},
+  \bibinfo{year}{2020}, pp. \bibinfo{pages}{39--48}.
+  \DOIprefix\doi{10.1145/3397271.3401075}.
+%Type = Misc
+\bibitem[{Xu et~al.(2023)Xu, Shi, and Choi}]{xu2023recomp}
+\bibinfo{author}{F.~Xu}, \bibinfo{author}{W.~Shi}, \bibinfo{author}{E.~Choi},
+  \bibinfo{title}{Recomp: Improving retrieval-augmented lms with compression
+  and selective augmentation}, \bibinfo{year}{2023}.
+  \href{http://arxiv.org/abs/2310.04408}{\tt arXiv:2310.04408}.
+%Type = Inproceedings
+\bibitem[{Jiang et~al.(2024)Jiang, Wu, Luo, Li, Lin, Yang, and
+  Qiu}]{jiang2023longllmlingua}
+\bibinfo{author}{H.~Jiang}, \bibinfo{author}{Q.~Wu}, \bibinfo{author}{X.~Luo},
+  \bibinfo{author}{D.~Li}, \bibinfo{author}{C.-Y. Lin},
+  \bibinfo{author}{Y.~Yang}, \bibinfo{author}{L.~Qiu},
+\newblock \bibinfo{title}{Longllmlingua: Accelerating and enhancing llms in
+  long context scenarios via prompt compression},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 62nd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)},
+  \bibinfo{year}{2024}, pp. \bibinfo{pages}{1658--1677}.
+  \DOIprefix\doi{10.18653/v1/2024.acl-long.91}.
+  \href{http://arxiv.org/abs/2310.06839}{\tt arXiv:2310.06839}.
+%Type = Article
+\bibitem[{Liu et~al.(2024)Liu, Lin, Hewitt, Paranjape, Bevilacqua, Petroni, and
+  Liang}]{liu2023lost}
+\bibinfo{author}{N.~F. Liu}, \bibinfo{author}{K.~Lin},
+  \bibinfo{author}{J.~Hewitt}, \bibinfo{author}{A.~Paranjape},
+  \bibinfo{author}{M.~Bevilacqua}, \bibinfo{author}{F.~Petroni},
+  \bibinfo{author}{P.~Liang},
+\newblock \bibinfo{title}{Lost in the middle: How language models use long
+  contexts},
+\newblock \bibinfo{journal}{Transactions of the Association for Computational
+  Linguistics} \bibinfo{volume}{12} (\bibinfo{year}{2024})
+  \bibinfo{pages}{157--173}.
+%Type = Inproceedings
+\bibitem[{Yang et~al.(2018)Yang, Qi, Zhang, Bengio, Cohen, Salakhutdinov, and
+  Manning}]{yang2018hotpotqa}
+\bibinfo{author}{Z.~Yang}, \bibinfo{author}{P.~Qi}, \bibinfo{author}{S.~Zhang},
+  \bibinfo{author}{Y.~Bengio}, \bibinfo{author}{W.~W. Cohen},
+  \bibinfo{author}{R.~Salakhutdinov}, \bibinfo{author}{C.~D. Manning},
+\newblock \bibinfo{title}{Hotpotqa: A dataset for diverse, explainable
+  multi-hop question answering},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2018 Conference on
+  Empirical Methods in Natural Language Processing}, \bibinfo{year}{2018}, pp.
+  \bibinfo{pages}{2369--2380}. \DOIprefix\doi{10.18653/v1/D18-1259}.
+%Type = Inproceedings
+\bibitem[{Ho et~al.(2020)Ho, Duong~Nguyen, Sugawara, and
+  Aizawa}]{ho2020twowiki}
+\bibinfo{author}{X.~Ho}, \bibinfo{author}{A.-K. Duong~Nguyen},
+  \bibinfo{author}{S.~Sugawara}, \bibinfo{author}{A.~Aizawa},
+\newblock \bibinfo{title}{Constructing a multi-hop qa dataset for comprehensive
+  evaluation of reasoning steps},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 28th International
+  Conference on Computational Linguistics}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{6609--6625}.
+  \DOIprefix\doi{10.18653/v1/2020.coling-main.580}.
+  \href{http://arxiv.org/abs/2011.01060}{\tt arXiv:2011.01060}.
+%Type = Article
+\bibitem[{Trivedi et~al.(2022)Trivedi, Balasubramanian, Khot, and
+  Sabharwal}]{trivedi2022musique}
+\bibinfo{author}{H.~Trivedi}, \bibinfo{author}{N.~Balasubramanian},
+  \bibinfo{author}{T.~Khot}, \bibinfo{author}{A.~Sabharwal},
+\newblock \bibinfo{title}{Musique: Multihop questions via single-hop question
+  composition},
+\newblock \bibinfo{journal}{Transactions of the Association for Computational
+  Linguistics}  (\bibinfo{year}{2022}).
+%Type = Inproceedings
+\bibitem[{Hu et~al.(2022)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and
+  Chen}]{hu2022lora}
+\bibinfo{author}{E.~J. Hu}, \bibinfo{author}{Y.~Shen},
+  \bibinfo{author}{P.~Wallis}, \bibinfo{author}{Z.~Allen-Zhu},
+  \bibinfo{author}{Y.~Li}, \bibinfo{author}{S.~Wang},
+  \bibinfo{author}{L.~Wang}, \bibinfo{author}{W.~Chen},
+\newblock \bibinfo{title}{Lora: Low-rank adaptation of large language models},
+\newblock in: \bibinfo{booktitle}{International Conference on Learning
+  Representations}, \bibinfo{year}{2022}.
+%Type = Inproceedings
+\bibitem[{Chen et~al.(2017)Chen, Fisch, Weston, and Bordes}]{chen2017drqa}
+\bibinfo{author}{D.~Chen}, \bibinfo{author}{A.~Fisch},
+  \bibinfo{author}{J.~Weston}, \bibinfo{author}{A.~Bordes},
+\newblock \bibinfo{title}{Reading wikipedia to answer open-domain questions},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 55th Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{year}{2017}, pp.
+  \bibinfo{pages}{1870--1879}. \DOIprefix\doi{10.18653/v1/P17-1171}.
+%Type = Article
+\bibitem[{Ryu et~al.(2014)Ryu, Jang, and Kim}]{ryu2014wikipediaqa}
+\bibinfo{author}{P.-M. Ryu}, \bibinfo{author}{M.-G. Jang},
+  \bibinfo{author}{H.-K. Kim},
+\newblock \bibinfo{title}{Open domain question answering using wikipedia-based
+  knowledge model},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{50} (\bibinfo{year}{2014}) \bibinfo{pages}{683--692}.
+%Type = Article
+\bibitem[{Noraset et~al.(2021)Noraset, Lowphansirikul, and
+  Tuarob}]{noraset2021wabiqa}
+\bibinfo{author}{T.~Noraset}, \bibinfo{author}{L.~Lowphansirikul},
+  \bibinfo{author}{S.~Tuarob},
+\newblock \bibinfo{title}{{WabiQA}: A wikipedia-based thai question-answering
+  system},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{58} (\bibinfo{year}{2021}) \bibinfo{pages}{102431}.
+%Type = Inproceedings
+\bibitem[{Guu et~al.(2020)Guu, Lee, Tung, Pasupat, and Chang}]{guu2020realm}
+\bibinfo{author}{K.~Guu}, \bibinfo{author}{K.~Lee}, \bibinfo{author}{Z.~Tung},
+  \bibinfo{author}{P.~Pasupat}, \bibinfo{author}{M.-W. Chang},
+\newblock \bibinfo{title}{{REALM}: Retrieval-augmented language model
+  pre-training},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 37th International
+  Conference on Machine Learning}, volume \bibinfo{volume}{119} of
+  \textit{\bibinfo{series}{Proceedings of Machine Learning Research}},
+  \bibinfo{year}{2020}, pp. \bibinfo{pages}{3929--3938}.
+%Type = Inproceedings
+\bibitem[{Izacard and Grave(2021)}]{izacard2021fid}
+\bibinfo{author}{G.~Izacard}, \bibinfo{author}{E.~Grave},
+\newblock \bibinfo{title}{Leveraging passage retrieval with generative models
+  for open domain question answering},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 16th Conference of the
+  European Chapter of the Association for Computational Linguistics},
+  \bibinfo{year}{2021}, pp. \bibinfo{pages}{874--880}.
+  \DOIprefix\doi{10.18653/v1/2021.eacl-main.74}.
+%Type = Inproceedings
+\bibitem[{Borgeaud et~al.(2022)Borgeaud, Mensch, Hoffmann, Cai, Rutherford,
+  Millican, van~den Driessche, Lespiau, Damoc, Clark, de~Las~Casas, Guy,
+  Menick, Ring, Hennigan, Huang, Maggiore, Jones, Cassirer, Brock, Paganini,
+  Irving, Vinyals, Osindero, Simonyan, Rae, Elsen, and
+  Sifre}]{borgeaud2022retro}
+\bibinfo{author}{S.~Borgeaud}, \bibinfo{author}{A.~Mensch},
+  \bibinfo{author}{J.~Hoffmann}, \bibinfo{author}{T.~Cai},
+  \bibinfo{author}{E.~Rutherford}, \bibinfo{author}{K.~Millican},
+  \bibinfo{author}{G.~B. van~den Driessche}, \bibinfo{author}{J.-B. Lespiau},
+  \bibinfo{author}{B.~Damoc}, \bibinfo{author}{A.~Clark},
+  \bibinfo{author}{D.~de~Las~Casas}, \bibinfo{author}{A.~Guy},
+  \bibinfo{author}{J.~Menick}, \bibinfo{author}{R.~Ring},
+  \bibinfo{author}{T.~Hennigan}, \bibinfo{author}{S.~Huang},
+  \bibinfo{author}{L.~Maggiore}, \bibinfo{author}{C.~Jones},
+  \bibinfo{author}{A.~Cassirer}, \bibinfo{author}{A.~Brock},
+  \bibinfo{author}{M.~Paganini}, \bibinfo{author}{G.~Irving},
+  \bibinfo{author}{O.~Vinyals}, \bibinfo{author}{S.~Osindero},
+  \bibinfo{author}{K.~Simonyan}, \bibinfo{author}{J.~W. Rae},
+  \bibinfo{author}{E.~Elsen}, \bibinfo{author}{L.~Sifre},
+\newblock \bibinfo{title}{Improving language models by retrieving from
+  trillions of tokens},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 39th International
+  Conference on Machine Learning}, volume \bibinfo{volume}{162} of
+  \textit{\bibinfo{series}{Proceedings of Machine Learning Research}},
+  \bibinfo{year}{2022}, pp. \bibinfo{pages}{2206--2240}.
+%Type = Article
+\bibitem[{Izacard et~al.(2023)Izacard, Lewis, Lomeli, Hosseini, Petroni,
+  Schick, Dwivedi-Yu, Joulin, Riedel, and Grave}]{izacard2023atlas}
+\bibinfo{author}{G.~Izacard}, \bibinfo{author}{P.~Lewis},
+  \bibinfo{author}{M.~Lomeli}, \bibinfo{author}{L.~Hosseini},
+  \bibinfo{author}{F.~Petroni}, \bibinfo{author}{T.~Schick},
+  \bibinfo{author}{J.~Dwivedi-Yu}, \bibinfo{author}{A.~Joulin},
+  \bibinfo{author}{S.~Riedel}, \bibinfo{author}{E.~Grave},
+\newblock \bibinfo{title}{Atlas: Few-shot learning with retrieval augmented
+  language models},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{24} (\bibinfo{year}{2023}) \bibinfo{pages}{1--43}.
+%Type = Inproceedings
+\bibitem[{Shi et~al.(2024)Shi, Min, Yasunaga, Seo, James, Lewis, Zettlemoyer,
+  and Yih}]{shi2024replug}
+\bibinfo{author}{W.~Shi}, \bibinfo{author}{S.~Min},
+  \bibinfo{author}{M.~Yasunaga}, \bibinfo{author}{M.~Seo},
+  \bibinfo{author}{R.~James}, \bibinfo{author}{M.~Lewis},
+  \bibinfo{author}{L.~Zettlemoyer}, \bibinfo{author}{W.-t. Yih},
+\newblock \bibinfo{title}{{REPLUG}: Retrieval-augmented black-box language
+  models},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2024 Conference of the
+  North American Chapter of the Association for Computational Linguistics:
+  Human Language Technologies}, \bibinfo{year}{2024}, pp.
+  \bibinfo{pages}{8371--8384}. \DOIprefix\doi{10.18653/v1/2024.naacl-long.463}.
+%Type = Article
+\bibitem[{Li et~al.(2023)Li, Yang, Wang, Wei, and Li}]{li2023gcoqa}
+\bibinfo{author}{Y.~Li}, \bibinfo{author}{N.~Yang}, \bibinfo{author}{L.~Wang},
+  \bibinfo{author}{F.~Wei}, \bibinfo{author}{W.~Li},
+\newblock \bibinfo{title}{Generative retrieval for conversational question
+  answering},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{60} (\bibinfo{year}{2023}) \bibinfo{pages}{103475}.
+%Type = Article
+\bibitem[{Mo et~al.(2026)Mo, Gao, Wu, Liu, Chen, Li, Wang, Li, Jiang, and
+  Nie}]{mo2026historicalrag}
+\bibinfo{author}{F.~Mo}, \bibinfo{author}{Y.~Gao}, \bibinfo{author}{Z.~Wu},
+  \bibinfo{author}{X.~Liu}, \bibinfo{author}{P.~Chen}, \bibinfo{author}{Z.~Li},
+  \bibinfo{author}{Z.~Wang}, \bibinfo{author}{X.~Li},
+  \bibinfo{author}{M.~Jiang}, \bibinfo{author}{J.-Y. Nie},
+\newblock \bibinfo{title}{Leveraging historical information to boost
+  retrieval-augmented generation in conversations},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{63} (\bibinfo{year}{2026}) \bibinfo{pages}{104449}.
+%Type = Article
+\bibitem[{Welbl et~al.(2018)Welbl, Stenetorp, and Riedel}]{welbl2018wikihop}
+\bibinfo{author}{J.~Welbl}, \bibinfo{author}{P.~Stenetorp},
+  \bibinfo{author}{S.~Riedel},
+\newblock \bibinfo{title}{Constructing datasets for multi-hop reading
+  comprehension across documents},
+\newblock \bibinfo{journal}{Transactions of the Association for Computational
+  Linguistics} \bibinfo{volume}{6} (\bibinfo{year}{2018})
+  \bibinfo{pages}{287--302}.
+%Type = Inproceedings
+\bibitem[{Asai et~al.(2020)Asai, Hashimoto, Hajishirzi, Socher, and
+  Xiong}]{asai2020reasoningpaths}
+\bibinfo{author}{A.~Asai}, \bibinfo{author}{K.~Hashimoto},
+  \bibinfo{author}{H.~Hajishirzi}, \bibinfo{author}{R.~Socher},
+  \bibinfo{author}{C.~Xiong},
+\newblock \bibinfo{title}{Learning to retrieve reasoning paths over wikipedia
+  graph for question answering},
+\newblock in: \bibinfo{booktitle}{International Conference on Learning
+  Representations}, \bibinfo{year}{2020}.
+%Type = Inproceedings
+\bibitem[{Trivedi et~al.(2023)Trivedi, Balasubramanian, Khot, and
+  Sabharwal}]{trivedi2023ircot}
+\bibinfo{author}{H.~Trivedi}, \bibinfo{author}{N.~Balasubramanian},
+  \bibinfo{author}{T.~Khot}, \bibinfo{author}{A.~Sabharwal},
+\newblock \bibinfo{title}{Interleaving retrieval with chain-of-thought
+  reasoning for knowledge-intensive multi-step questions},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 61st Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{year}{2023}, pp.
+  \bibinfo{pages}{10014--10037}. \DOIprefix\doi{10.18653/v1/2023.acl-long.557}.
+%Type = Inproceedings
+\bibitem[{Khot et~al.(2023)Khot, Trivedi, Finlayson, Fu, Richardson, Clark, and
+  Sabharwal}]{khot2023decomposed}
+\bibinfo{author}{T.~Khot}, \bibinfo{author}{H.~Trivedi},
+  \bibinfo{author}{M.~Finlayson}, \bibinfo{author}{Y.~Fu},
+  \bibinfo{author}{K.~Richardson}, \bibinfo{author}{P.~Clark},
+  \bibinfo{author}{A.~Sabharwal},
+\newblock \bibinfo{title}{Decomposed prompting: A modular approach for solving
+  complex tasks},
+\newblock in: \bibinfo{booktitle}{International Conference on Learning
+  Representations}, \bibinfo{year}{2023}.
+%Type = Article
+\bibitem[{Frummet et~al.(2025)Frummet, Elsweiler, and
+  Kruschwitz}]{cookingcontext2025}
+\bibinfo{author}{A.~Frummet}, \bibinfo{author}{D.~Elsweiler},
+  \bibinfo{author}{U.~Kruschwitz},
+\newblock \bibinfo{title}{Cooking with context: Leveraging context for
+  procedural question answering},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{62} (\bibinfo{year}{2025}) \bibinfo{pages}{104212}.
+%Type = Article
+\bibitem[{Song(2026)}]{song2026ocr}
+\bibinfo{author}{M.~Song},
+\newblock \bibinfo{title}{Defining the problem: The impact of {OCR} quality on
+  retrieval-augmented generation performance and strategies for improvement},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{63} (\bibinfo{year}{2026}) \bibinfo{pages}{104368}.
+%Type = Misc
+\bibitem[{Leng et~al.(2024)Leng, Portes, Havens, Zaharia, and
+  Carbin}]{leng2024longcontextrag}
+\bibinfo{author}{Q.~Leng}, \bibinfo{author}{J.~Portes},
+  \bibinfo{author}{S.~Havens}, \bibinfo{author}{M.~Zaharia},
+  \bibinfo{author}{M.~Carbin}, \bibinfo{title}{Long context rag performance of
+  large language models}, \bibinfo{year}{2024}.
+  \href{http://arxiv.org/abs/2411.03538}{\tt arXiv:2411.03538}.
+%Type = Misc
+\bibitem[{Lee et~al.(2024)Lee, Chen, Dai, Dua, Sachan, Boratko, Luan, Arnold,
+  Perot, Dalmia, Hu, Lin, Pasupat, Amini, Cole, Riedel, Naim, Chang, and
+  Guu}]{lee2024loft}
+\bibinfo{author}{J.~Lee}, \bibinfo{author}{A.~Chen}, \bibinfo{author}{Z.~Dai},
+  \bibinfo{author}{D.~Dua}, \bibinfo{author}{D.~S. Sachan},
+  \bibinfo{author}{M.~Boratko}, \bibinfo{author}{Y.~Luan},
+  \bibinfo{author}{S.~M.~R. Arnold}, \bibinfo{author}{V.~Perot},
+  \bibinfo{author}{S.~Dalmia}, \bibinfo{author}{H.~Hu},
+  \bibinfo{author}{X.~Lin}, \bibinfo{author}{P.~Pasupat},
+  \bibinfo{author}{A.~Amini}, \bibinfo{author}{J.~R. Cole},
+  \bibinfo{author}{S.~Riedel}, \bibinfo{author}{I.~Naim},
+  \bibinfo{author}{M.-W. Chang}, \bibinfo{author}{K.~Guu}, \bibinfo{title}{Can
+  long-context language models subsume retrieval, rag, sql, and more?},
+  \bibinfo{year}{2024}. \href{http://arxiv.org/abs/2406.13121}{\tt
+  arXiv:2406.13121}.
+%Type = Inproceedings
+\bibitem[{Bai et~al.(2024)}]{bai2024longbench}
+\bibinfo{author}{Y.~Bai}, et~al.,
+\newblock \bibinfo{title}{{LongBench}: A bilingual, multitask benchmark for
+  long context understanding},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 62nd Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{year}{2024}, pp.
+  \bibinfo{pages}{3119--3137}. \DOIprefix\doi{10.18653/v1/2024.acl-long.172}.
+%Type = Misc
+\bibitem[{Hsieh et~al.(2024)}]{hsieh2024ruler}
+\bibinfo{author}{C.-P. Hsieh}, et~al., \bibinfo{title}{{RULER}: What's the real
+  context size of your long-context language models?}, \bibinfo{year}{2024}.
+  \href{http://arxiv.org/abs/2404.06654}{\tt arXiv:2404.06654}.
+%Type = Misc
+\bibitem[{Peysakhovich and Lerer(2023)}]{peysakhovich2023attentionsorting}
+\bibinfo{author}{A.~Peysakhovich}, \bibinfo{author}{A.~Lerer},
+  \bibinfo{title}{Attention sorting combats recency bias in long context
+  language models}, \bibinfo{year}{2023}.
+  \href{http://arxiv.org/abs/2310.01427}{\tt arXiv:2310.01427}.
+%Type = Article
+\bibitem[{Robertson and Zaragoza(2009)}]{robertson2009bm25}
+\bibinfo{author}{S.~Robertson}, \bibinfo{author}{H.~Zaragoza},
+\newblock \bibinfo{title}{The probabilistic relevance framework: {BM25} and
+  beyond},
+\newblock \bibinfo{journal}{Foundations and Trends in Information Retrieval}
+  \bibinfo{volume}{3} (\bibinfo{year}{2009}) \bibinfo{pages}{333--389}.
+%Type = Misc
+\bibitem[{Nogueira and Cho(2019)}]{nogueira2019bert}
+\bibinfo{author}{R.~Nogueira}, \bibinfo{author}{K.~Cho},
+  \bibinfo{title}{Passage re-ranking with {BERT}}, \bibinfo{year}{2019}.
+  \href{http://arxiv.org/abs/1901.04085}{\tt arXiv:1901.04085}.
+%Type = Inproceedings
+\bibitem[{Yu et~al.(2024)Yu, Ping, Liu, Wang, You, Zhang, Shoeybi, and
+  Catanzaro}]{yu2024rankrag}
+\bibinfo{author}{Y.~Yu}, \bibinfo{author}{W.~Ping}, \bibinfo{author}{Z.~Liu},
+  \bibinfo{author}{B.~Wang}, \bibinfo{author}{J.~You},
+  \bibinfo{author}{C.~Zhang}, \bibinfo{author}{M.~Shoeybi},
+  \bibinfo{author}{B.~Catanzaro},
+\newblock \bibinfo{title}{Rankrag: Unifying context ranking with
+  retrieval-augmented generation in llms},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems 37}, \bibinfo{year}{2024}, pp. \bibinfo{pages}{121156--121184}.
+  \DOIprefix\doi{10.52202/079017-3850}.
+  \href{http://arxiv.org/abs/2407.02485}{\tt arXiv:2407.02485}.
+%Type = Misc
+\bibitem[{Asai et~al.(2023)Asai, Wu, Wang, Sil, and
+  Hajishirzi}]{asai2023selfrag}
+\bibinfo{author}{A.~Asai}, \bibinfo{author}{Z.~Wu}, \bibinfo{author}{Y.~Wang},
+  \bibinfo{author}{A.~Sil}, \bibinfo{author}{H.~Hajishirzi},
+  \bibinfo{title}{Self-rag: Learning to retrieve, generate, and critique
+  through self-reflection}, \bibinfo{year}{2023}.
+  \href{http://arxiv.org/abs/2310.11511}{\tt arXiv:2310.11511}.
+%Type = Inproceedings
+\bibitem[{Jeong et~al.(2024)Jeong, Baek, Cho, Hwang, and
+  Park}]{jeong2024adaptiverag}
+\bibinfo{author}{S.~Jeong}, \bibinfo{author}{J.~Baek},
+  \bibinfo{author}{S.~Cho}, \bibinfo{author}{S.~J. Hwang},
+  \bibinfo{author}{J.~C. Park},
+\newblock \bibinfo{title}{{Adaptive-RAG}: Learning to adapt retrieval-augmented
+  large language models through question complexity},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2024 Conference of the
+  North American Chapter of the Association for Computational Linguistics:
+  Human Language Technologies}, \bibinfo{year}{2024}, pp.
+  \bibinfo{pages}{7036--7050}. \DOIprefix\doi{10.18653/v1/2024.naacl-long.389}.
+%Type = Misc
+\bibitem[{Yan et~al.(2024)Yan, Gu, Zhu, and Ling}]{yan2024crag}
+\bibinfo{author}{S.-Q. Yan}, \bibinfo{author}{J.-C. Gu},
+  \bibinfo{author}{Y.~Zhu}, \bibinfo{author}{Z.-H. Ling},
+  \bibinfo{title}{Corrective retrieval augmented generation},
+  \bibinfo{year}{2024}. \href{http://arxiv.org/abs/2401.15884}{\tt
+  arXiv:2401.15884}.
+%Type = Article
+\bibitem[{Li et~al.(2026)Li, Ke, Liu, Wang, Liu, and He}]{li2026scrag}
+\bibinfo{author}{Y.~Li}, \bibinfo{author}{W.~Ke}, \bibinfo{author}{J.~Liu},
+  \bibinfo{author}{P.~Wang}, \bibinfo{author}{J.~Liu}, \bibinfo{author}{Y.~He},
+\newblock \bibinfo{title}{Towards evidence-aware retrieval-augmented generation
+  via self-corrective chain-of-thought},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{63} (\bibinfo{year}{2026}) \bibinfo{pages}{104369}.
+%Type = Article
+\bibitem[{Zhou et~al.(2026)Zhou, Tang, Zeng, and Zhao}]{zhou2026inker}
+\bibinfo{author}{M.~Zhou}, \bibinfo{author}{J.~Tang},
+  \bibinfo{author}{W.~Zeng}, \bibinfo{author}{X.~Zhao},
+\newblock \bibinfo{title}{{INKER}: Adaptive dynamic retrieval augmented
+  generation with internal-external knowledge integration},
+\newblock \bibinfo{journal}{Information Processing \& Management}
+  \bibinfo{volume}{63} (\bibinfo{year}{2026}) \bibinfo{pages}{104534}.
+%Type = Misc
+\bibitem[{Prasad et~al.(2026)}]{prasad2026reasoningchains}
+\bibinfo{author}{A.~Prasad}, et~al., \bibinfo{title}{Effective reasoning chains
+  reduce intrinsic dimensionality}, \bibinfo{year}{2026}.
+  \href{http://arxiv.org/abs/2602.09276}{\tt arXiv:2602.09276}.
+%Type = Inproceedings
+\bibitem[{Houlsby et~al.(2019)Houlsby, Giurgiu, Jastrzebski, Morrone,
+  de~Laroussilhe, Gesmundo, Attariyan, and Gelly}]{houlsby2019adapters}
+\bibinfo{author}{N.~Houlsby}, \bibinfo{author}{A.~Giurgiu},
+  \bibinfo{author}{S.~Jastrzebski}, \bibinfo{author}{B.~Morrone},
+  \bibinfo{author}{Q.~de~Laroussilhe}, \bibinfo{author}{A.~Gesmundo},
+  \bibinfo{author}{M.~Attariyan}, \bibinfo{author}{S.~Gelly},
+\newblock \bibinfo{title}{Parameter-efficient transfer learning for {NLP}},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 36th International
+  Conference on Machine Learning}, volume~\bibinfo{volume}{97} of
+  \textit{\bibinfo{series}{Proceedings of Machine Learning Research}},
+  \bibinfo{year}{2019}, pp. \bibinfo{pages}{2790--2799}.
+%Type = Inproceedings
+\bibitem[{Li and Liang(2021)}]{li2021prefixtuning}
+\bibinfo{author}{X.~L. Li}, \bibinfo{author}{P.~Liang},
+\newblock \bibinfo{title}{Prefix-tuning: Optimizing continuous prompts for
+  generation},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 59th Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{year}{2021}, pp.
+  \bibinfo{pages}{4582--4597}. \DOIprefix\doi{10.18653/v1/2021.acl-long.353}.
+%Type = Inproceedings
+\bibitem[{Lester et~al.(2021)Lester, Al-Rfou, and
+  Constant}]{lester2021prompttuning}
+\bibinfo{author}{B.~Lester}, \bibinfo{author}{R.~Al-Rfou},
+  \bibinfo{author}{N.~Constant},
+\newblock \bibinfo{title}{The power of scale for parameter-efficient prompt
+  tuning},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2021 Conference on
+  Empirical Methods in Natural Language Processing}, \bibinfo{year}{2021}, pp.
+  \bibinfo{pages}{3045--3059}. \DOIprefix\doi{10.18653/v1/2021.emnlp-main.243}.
+%Type = Inproceedings
+\bibitem[{Dettmers et~al.(2023)Dettmers, Pagnoni, Holtzman, and
+  Zettlemoyer}]{dettmers2023qlora}
+\bibinfo{author}{T.~Dettmers}, \bibinfo{author}{A.~Pagnoni},
+  \bibinfo{author}{A.~Holtzman}, \bibinfo{author}{L.~Zettlemoyer},
+\newblock \bibinfo{title}{{QLoRA}: Efficient finetuning of quantized {LLMs}},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}, \bibinfo{year}{2023}, pp. \bibinfo{pages}{10088--10115}.
+  \DOIprefix\doi{10.52202/075280-0441}.
+%Type = Inproceedings
+\bibitem[{Aghajanyan et~al.(2021)Aghajanyan, Gupta, and
+  Zettlemoyer}]{aghajanyan2021intrinsic}
+\bibinfo{author}{A.~Aghajanyan}, \bibinfo{author}{S.~Gupta},
+  \bibinfo{author}{L.~Zettlemoyer},
+\newblock \bibinfo{title}{Intrinsic dimensionality explains the effectiveness
+  of language model fine-tuning},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 59th Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{year}{2021}, pp.
+  \bibinfo{pages}{7319--7328}. \DOIprefix\doi{10.18653/v1/2021.acl-long.568}.
+%Type = Misc
+\bibitem[{Grattafiori et~al.(2024)}]{grattafiori2024llama3}
+\bibinfo{author}{A.~Grattafiori}, et~al., \bibinfo{title}{The {Llama 3} herd of
+  models}, \bibinfo{year}{2024}. \DOIprefix\doi{10.48550/arXiv.2407.21783}.
+  \href{http://arxiv.org/abs/2407.21783}{\tt arXiv:2407.21783}.
+%Type = Misc
+\bibitem[{Hui et~al.(2024)}]{hui2024qwen25coder}
+\bibinfo{author}{B.~Hui}, et~al., \bibinfo{title}{{Qwen2.5-Coder} technical
+  report}, \bibinfo{year}{2024}. \DOIprefix\doi{10.48550/arXiv.2409.12186}.
+  \href{http://arxiv.org/abs/2409.12186}{\tt arXiv:2409.12186}.
+%Type = Misc
+\bibitem[{Jiang et~al.(2023)}]{jiang2023mistral}
+\bibinfo{author}{A.~Q. Jiang}, et~al., \bibinfo{title}{{Mistral 7B}},
+  \bibinfo{year}{2023}. \DOIprefix\doi{10.48550/arXiv.2310.06825}.
+  \href{http://arxiv.org/abs/2310.06825}{\tt arXiv:2310.06825}.
+%Type = Misc
+\bibitem[{{Gemma Team} et~al.(2024){Gemma Team}, Riviere
+  et~al.}]{riviere2024gemma2}
+\bibinfo{author}{{Gemma Team}}, \bibinfo{author}{M.~Riviere}, et~al.,
+  \bibinfo{title}{{Gemma 2}: Improving open language models at a practical
+  size}, \bibinfo{year}{2024}. \DOIprefix\doi{10.48550/arXiv.2408.00118}.
+  \href{http://arxiv.org/abs/2408.00118}{\tt arXiv:2408.00118}.
+
+\end{thebibliography}

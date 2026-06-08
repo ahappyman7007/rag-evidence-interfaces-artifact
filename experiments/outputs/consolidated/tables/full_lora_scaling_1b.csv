@@ -1,0 +1,13 @@
+model_label,interface_name,interface_label,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,avg_prompt_tokens,truncated_count,source_summary
+Llama-3.2-1B,raw_context,Raw context,500,32,0.898704,0.266667,0.379492,0.3,1427.7066666666667,1,rank_sweep/hotpotqa_lora_rank_sweep_summary.json
+Llama-3.2-1B,raw_context,Raw context,1000,63,0.787845,0.313333,0.425675,0.336667,1427.7066666666667,1,rank_sweep/hotpotqa_data_scaling_n1000_summary.json
+Llama-3.2-1B,raw_context,Raw context,2000,125,0.686068,0.376667,0.493656,0.4,1427.7066666666667,1,rank_sweep/hotpotqa_data_scaling_n2000_summary.json
+Llama-3.2-1B,raw_context,Raw context,4000,250,0.602157,0.436667,0.554321,0.463333,1427.7066666666667,1,rank_sweep/hotpotqa_raw_context_scaling_n4000_summary.json
+Llama-3.2-1B,raw_support_first,Support first,500,32,0.636107,0.41,0.538658,0.443333,1427.7066666666667,1,rank_sweep/hotpotqa_evidence_quality_lora_r8_summary.json
+Llama-3.2-1B,raw_support_first,Support first,1000,63,0.569251,0.45,0.575353,0.48,1427.7066666666667,1,rank_sweep/hotpotqa_support_first_scaling_n1000_summary.json
+Llama-3.2-1B,raw_support_first,Support first,2000,125,0.509801,0.496667,0.627553,0.523333,1427.7066666666667,1,rank_sweep/hotpotqa_support_first_scaling_n2000_summary.json
+Llama-3.2-1B,raw_support_first,Support first,4000,250,0.443481,0.536667,0.666705,0.563333,1427.7066666666667,1,rank_sweep/hotpotqa_support_first_scaling_n4000_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,500,32,0.557893,0.47,0.604591,0.533333,157.93333333333334,0,rank_sweep/hotpotqa_lora_rank_sweep_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,1000,63,0.512989,0.513333,0.643755,0.556667,157.93333333333334,0,rank_sweep/hotpotqa_data_scaling_n1000_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,2000,125,0.446912,0.546667,0.681997,0.596667,157.93333333333334,0,rank_sweep/hotpotqa_data_scaling_n2000_summary.json
+Llama-3.2-1B,gold_supporting_sentences,Gold evidence,4000,250,0.401814,0.586667,0.725188,0.626667,157.93333333333334,0,rank_sweep/hotpotqa_gold_scaling_n4000_summary.json

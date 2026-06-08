@@ -1,0 +1,67 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "no_context",
+    "raw_crossenc_top5docs",
+    "gold_supporting_sentences"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_sentences",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 3.689101502895355,
+      "final_eval_loss": 0.13860463538905607,
+      "elapsed_seconds": 394.09180784225464,
+      "exact_match": 0.73,
+      "f1": 0.8021428571428572,
+      "answer_contained": 0.8066666666666666,
+      "avg_prompt_tokens": 146.59,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_mistral7b/gold_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_mistral7b/gold_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "no_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 4.604726324081421,
+      "final_eval_loss": 0.9342739471793174,
+      "elapsed_seconds": 115.70147967338562,
+      "exact_match": 0.28,
+      "f1": 0.3242070707070707,
+      "answer_contained": 0.2966666666666667,
+      "avg_prompt_tokens": 37.846666666666664,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_mistral7b/no_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_mistral7b/no_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_crossenc_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 5.922906899899244,
+      "final_eval_loss": 0.501225004819571,
+      "elapsed_seconds": 903.4218473434448,
+      "exact_match": 0.48333333333333334,
+      "f1": 0.54305291005291,
+      "answer_contained": 0.5066666666666667,
+      "avg_prompt_tokens": 658.63,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_mistral7b/raw_crossenc_top5docs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_mistral7b/raw_crossenc_top5docs_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

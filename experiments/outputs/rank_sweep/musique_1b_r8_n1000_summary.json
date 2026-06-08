@@ -1,0 +1,67 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "raw_support_first",
+    "gold_supporting_paragraphs"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_paragraphs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.3992100992798806,
+      "final_eval_loss": 0.6308571703918279,
+      "elapsed_seconds": 126.52486944198608,
+      "exact_match": 0.33,
+      "f1": 0.4423305086726139,
+      "answer_contained": 0.3466666666666667,
+      "avg_prompt_tokens": 396.36333333333334,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_musique_1b/gold_paragraphs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_1b/gold_paragraphs_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 2.404929710588767,
+      "final_eval_loss": 1.1537148722833082,
+      "elapsed_seconds": 513.0196144580841,
+      "exact_match": 0.13333333333333333,
+      "f1": 0.2148177748177748,
+      "answer_contained": 0.14,
+      "avg_prompt_tokens": 2379.4866666666667,
+      "truncated_count": 28,
+      "adapter_path": "experiments/outputs/lora_musique_1b/raw_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_1b/raw_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.9866490764205809,
+      "final_eval_loss": 0.7879257489059819,
+      "elapsed_seconds": 517.4519102573395,
+      "exact_match": 0.28,
+      "f1": 0.37997238209709605,
+      "answer_contained": 0.29333333333333333,
+      "avg_prompt_tokens": 2379.4866666666667,
+      "truncated_count": 28,
+      "adapter_path": "experiments/outputs/lora_musique_1b/raw_support_first_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_1b/raw_support_first_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

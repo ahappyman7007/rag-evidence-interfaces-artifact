@@ -1,0 +1,7 @@
+dataset,dataset_label,top5_method,support_status,examples,share,mean_support_fraction,raw_f1,top5_f1,top5_minus_raw_f1
+hotpotqa,HotpotQA,Fine-tuned cross-encoder,Complete support in top-5,284,0.946667,1.0,0.785839,0.78597,0.000131
+hotpotqa,HotpotQA,Fine-tuned cross-encoder,Missing support in top-5,16,0.053333,0.5,0.670833,0.447917,-0.222917
+2wiki,2WikiMultiHopQA,Cross-encoder,Complete support in top-5,172,0.573333,1.0,0.791136,0.785585,-0.005551
+2wiki,2WikiMultiHopQA,Cross-encoder,Missing support in top-5,128,0.426667,0.558724,0.770871,0.497414,-0.273456
+musique,MuSiQue,Cross-encoder,Complete support in top-5,106,0.353333,1.0,0.621052,0.708802,0.087751
+musique,MuSiQue,Cross-encoder,Missing support in top-5,194,0.646667,0.484107,0.558876,0.323249,-0.235627

@@ -1,0 +1,49 @@
+{
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_context",
+    "raw_support_first"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 4.278444784316378,
+      "final_eval_loss": 0.822228743384785,
+      "elapsed_seconds": 1717.0241661071777,
+      "exact_match": 0.32,
+      "f1": 0.4040399811173805,
+      "answer_contained": 0.3333333333333333,
+      "avg_prompt_tokens": 2649.9566666666665,
+      "truncated_count": 78,
+      "adapter_path": "experiments/outputs/lora_musique_mistral7b/raw_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_mistral7b/raw_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 3.748525381882317,
+      "final_eval_loss": 0.7979399671984083,
+      "elapsed_seconds": 2198.7232155799866,
+      "exact_match": 0.41,
+      "f1": 0.5059607892581038,
+      "answer_contained": 0.43333333333333335,
+      "avg_prompt_tokens": 2649.9566666666665,
+      "truncated_count": 78,
+      "adapter_path": "experiments/outputs/lora_musique_mistral7b/raw_support_first_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_mistral7b/raw_support_first_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

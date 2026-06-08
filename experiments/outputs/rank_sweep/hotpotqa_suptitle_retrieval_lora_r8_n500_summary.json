@@ -1,0 +1,67 @@
+{
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "train_size": 500,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_suptitle_order",
+    "raw_suptitle_top3docs",
+    "raw_suptitle_top5docs"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_suptitle_order",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 1.823338764309883,
+      "final_eval_loss": 0.9156156074133469,
+      "elapsed_seconds": 174.59686970710754,
+      "exact_match": 0.29333333333333333,
+      "f1": 0.4053263588263588,
+      "answer_contained": 0.32,
+      "avg_prompt_tokens": 1427.71,
+      "truncated_count": 1,
+      "adapter_path": "experiments/outputs/lora_pilot/raw_suptitle_order_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/raw_suptitle_order_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_suptitle_top3docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 2.3033352375030516,
+      "final_eval_loss": 1.5873734257719478,
+      "elapsed_seconds": 108.73023819923401,
+      "exact_match": 0.23666666666666666,
+      "f1": 0.3578924963924964,
+      "answer_contained": 0.26,
+      "avg_prompt_tokens": 368.97,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/raw_suptitle_top3docs_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/raw_suptitle_top3docs_lora_r8_n500_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_suptitle_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 500,
+      "updates": 32,
+      "initial_eval_loss": 2.2128136700391767,
+      "final_eval_loss": 1.3224836339079775,
+      "elapsed_seconds": 112.96443367004395,
+      "exact_match": 0.25,
+      "f1": 0.3713975089238247,
+      "answer_contained": 0.28,
+      "avg_prompt_tokens": 608.7766666666666,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_pilot/raw_suptitle_top5docs_r8_n500/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test/raw_suptitle_top5docs_lora_r8_n500_eval300/summary.json"
+    }
+  ]
+}

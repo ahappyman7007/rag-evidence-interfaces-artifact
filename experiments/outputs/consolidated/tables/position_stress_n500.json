@@ -1,0 +1,72 @@
+[
+  {
+    "model_label": "Llama-3.2-1B",
+    "interface_name": "raw_context",
+    "interface_label": "Raw context",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.898704,
+    "exact_match": 0.266667,
+    "f1": 0.379492,
+    "answer_contained": 0.3,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_lora_rank_sweep_summary.json"
+  },
+  {
+    "model_label": "Llama-3.2-1B",
+    "interface_name": "raw_support_shuffled",
+    "interface_label": "Support shuffled",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.858794,
+    "exact_match": 0.29,
+    "f1": 0.395571,
+    "answer_contained": 0.323333,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_position_shuffled_lora_r8_summary.json"
+  },
+  {
+    "model_label": "Llama-3.2-1B",
+    "interface_name": "raw_support_middle",
+    "interface_label": "Support middle",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.860122,
+    "exact_match": 0.283333,
+    "f1": 0.400746,
+    "answer_contained": 0.31,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_position_middle_lora_r8_summary.json"
+  },
+  {
+    "model_label": "Llama-3.2-1B",
+    "interface_name": "raw_support_last",
+    "interface_label": "Support last",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.726582,
+    "exact_match": 0.31,
+    "f1": 0.442754,
+    "answer_contained": 0.35,
+    "avg_prompt_tokens": 1427.71,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_position_stress_lora_r8_summary.json"
+  },
+  {
+    "model_label": "Llama-3.2-1B",
+    "interface_name": "raw_support_first",
+    "interface_label": "Support first",
+    "train_size": 500,
+    "updates": 32,
+    "final_eval_loss": 0.636107,
+    "exact_match": 0.41,
+    "f1": 0.538658,
+    "answer_contained": 0.443333,
+    "avg_prompt_tokens": 1427.7066666666667,
+    "truncated_count": 1,
+    "source_summary": "rank_sweep/hotpotqa_evidence_quality_lora_r8_summary.json"
+  }
+]

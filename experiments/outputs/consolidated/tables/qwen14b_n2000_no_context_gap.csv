@@ -1,0 +1,17 @@
+dataset,train_size,interface,em,f1,answer_contained,avg_prompt_tokens,truncated_count,elapsed_minutes,summary_path
+2wiki,2000,gold_evidence_triples,0.9933333333333333,0.9933333333333333,0.9933333333333333,100.22,0,6.977342585722606,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_gold_evidence_triples_summary.json
+2wiki,2000,gold_supporting_sentences,0.7466666666666667,0.8164259259259259,0.7933333333333333,154.94333333333333,0,11.79135758082072,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_gold_supporting_sentences_summary.json
+2wiki,2000,no_context,0.27,0.31517291967291966,0.29333333333333333,57.086666666666666,0,3.2311440229415895,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_no_context_summary.json
+2wiki,2000,raw_context,0.6266666666666667,0.6938095238095238,0.6866666666666666,1059.25,0,21.654714449246725,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_raw_context_summary.json
+2wiki,2000,raw_crossenc_top5docs,0.5766666666666667,0.6457142857142857,0.6166666666666667,623.8,0,23.78723487059275,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_raw_crossenc_top5docs_summary.json
+2wiki,2000,raw_support_first,0.7066666666666667,0.7723439153439153,0.7533333333333333,1059.2466666666667,0,25.127083412806194,experiments/outputs/rank_sweep/2wiki_qwen14b_r8_n2000_raw_support_first_summary.json
+hotpotqa,2000,gold_supporting_sentences,0.6366666666666667,0.7871967291967292,0.6933333333333334,156.16,0,11.813881742954255,experiments/outputs/rank_sweep/hotpotqa_qwen14b_r8_n2000_gold_supporting_sentences_summary.json
+hotpotqa,2000,no_context,0.19,0.2798075998075998,0.21666666666666667,60.70666666666666,0,3.2737803936004637,experiments/outputs/rank_sweep/hotpotqa_qwen14b_r8_n2000_no_context_summary.json
+hotpotqa,2000,raw_context,0.59,0.7479853294853295,0.6366666666666667,1484.2633333333333,1,52.73693399031957,experiments/outputs/rank_sweep/hotpotqa_qwen14b_r8_n2000_raw_context_summary.json
+hotpotqa,2000,raw_ftcrossenc_top5docs,0.61,0.7547126022126022,0.6533333333333333,685.4433333333334,0,19.40332951148351,experiments/outputs/rank_sweep/hotpotqa_qwen14b_r8_n2000_raw_ftcrossenc_top5docs_summary.json
+hotpotqa,2000,raw_support_first,0.6533333333333333,0.8011067821067821,0.69,1484.2633333333333,1,46.19426201581955,experiments/outputs/rank_sweep/hotpotqa_qwen14b_r8_n2000_raw_support_first_summary.json
+musique,2000,gold_supporting_paragraphs,0.59,0.6924057663469428,0.6133333333333333,404.9033333333333,0,20.571193826198577,experiments/outputs/rank_sweep/musique_qwen14b_r8_n2000_gold_supporting_paragraphs_summary.json
+musique,2000,no_context,0.07,0.14399942443750494,0.07,61.47666666666667,0,3.2921618700027464,experiments/outputs/rank_sweep/musique_qwen14b_r8_n2000_no_context_summary.json
+musique,2000,raw_context,0.4633333333333333,0.5621854681266446,0.48333333333333334,2473.2066666666665,37,56.176490346590676,experiments/outputs/rank_sweep/musique_qwen14b_r8_n2000_raw_context_summary.json
+musique,2000,raw_crossenc_top5docs,0.33,0.43741830065359477,0.3433333333333333,699.5833333333334,0,30.18489137887955,experiments/outputs/rank_sweep/musique_qwen14b_r8_n2000_raw_crossenc_top5docs_summary.json
+musique,2000,raw_support_first,0.5066666666666667,0.6167253953491805,0.54,2473.2066666666665,37,67.48532443841299,experiments/outputs/rank_sweep/musique_qwen14b_r8_n2000_raw_support_first_summary.json

@@ -1,0 +1,31 @@
+{
+  "model_id": "google/gemma-2-9b-it",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "raw_support_first"
+  ],
+  "rows": [
+    {
+      "interface_name": "raw_support_first",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 2.654173319953261,
+      "final_eval_loss": 0.47627053966454697,
+      "elapsed_seconds": 1866.0500040054321,
+      "exact_match": 0.5366666666666666,
+      "f1": 0.6335899568828294,
+      "answer_contained": 0.57,
+      "avg_prompt_tokens": 2405.5866666666666,
+      "truncated_count": 32,
+      "adapter_path": "experiments/outputs/lora_musique_gemma2_9b/raw_support_first_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_musique_gemma2_9b/raw_support_first_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}

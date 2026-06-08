@@ -1,0 +1,10 @@
+model_label,interface_name,interface_label,train_size,updates,final_eval_loss,exact_match,f1,answer_contained,avg_prompt_tokens,truncated_count,source_summary
+Llama-3.2-3B,raw_context,Raw context,500,32,0.58819,0.423333,0.555237,0.483333,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_raw_n500_summary.json
+Llama-3.2-3B,raw_support_first,Support first,500,32,0.552398,0.536667,0.693329,0.603333,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_support_first_n500_summary.json
+Llama-3.2-3B,gold_supporting_sentences,Gold evidence,500,32,0.468454,0.576667,0.72921,0.646667,157.93333333333334,0,rank_sweep/hotpotqa_larger_model_3b_gold_n500_summary.json
+Llama-3.2-3B,raw_context,Raw context,1000,63,0.532351,0.463333,0.587183,0.493333,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_raw_n1000_summary.json
+Llama-3.2-3B,raw_support_first,Support first,1000,63,0.525819,0.566667,0.718964,0.613333,1427.7066666666667,1,rank_sweep/hotpotqa_larger_model_3b_support_first_n1000_summary.json
+Llama-3.2-3B,gold_supporting_sentences,Gold evidence,1000,63,0.418856,0.586667,0.745483,0.633333,157.93333333333334,0,rank_sweep/hotpotqa_larger_model_3b_gold_n1000_summary.json
+Llama-3.2-3B,raw_context,Raw context,2000,125,0.514153,0.526667,0.660046,0.55,1427.7066666666667,1,rank_sweep/hotpotqa_lora_3b_raw_context_n2000_summary.json
+Llama-3.2-3B,raw_support_first,Support first,2000,125,0.495473,0.593333,0.735314,0.623333,1427.7066666666667,1,rank_sweep/hotpotqa_lora_3b_raw_support_first_n2000_summary.json
+Llama-3.2-3B,gold_supporting_sentences,Gold evidence,2000,125,0.405956,0.603333,0.769281,0.656667,157.93333333333334,0,rank_sweep/hotpotqa_lora_3b_gold_n2000_summary.json

@@ -1,0 +1,67 @@
+{
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "train_size": 1000,
+  "train_eval_size": 100,
+  "generation_eval_size": 300,
+  "ranks": [
+    8
+  ],
+  "interfaces": [
+    "no_context",
+    "raw_crossenc_top5docs",
+    "gold_supporting_sentences"
+  ],
+  "rows": [
+    {
+      "interface_name": "gold_supporting_sentences",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 0.9912935656309128,
+      "final_eval_loss": 0.15409521136200055,
+      "elapsed_seconds": 290.26810812950134,
+      "exact_match": 0.7733333333333333,
+      "f1": 0.8290343915343915,
+      "answer_contained": 0.8266666666666667,
+      "avg_prompt_tokens": 154.62333333333333,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_llama31_8b/gold_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_llama31_8b/gold_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "no_context",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.8475968194007875,
+      "final_eval_loss": 1.050183898806572,
+      "elapsed_seconds": 183.7283158302307,
+      "exact_match": 0.2633333333333333,
+      "f1": 0.3204054834054834,
+      "answer_contained": 0.2966666666666667,
+      "avg_prompt_tokens": 63.85666666666667,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_llama31_8b/no_context_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_llama31_8b/no_context_lora_r8_n1000_eval300/summary.json"
+    },
+    {
+      "interface_name": "raw_crossenc_top5docs",
+      "rank": 8,
+      "alpha": 16,
+      "train_size": 1000,
+      "updates": 63,
+      "initial_eval_loss": 1.7833521986380219,
+      "final_eval_loss": 0.5159782193752471,
+      "elapsed_seconds": 977.4911501407623,
+      "exact_match": 0.5466666666666666,
+      "f1": 0.6008756613756614,
+      "answer_contained": 0.5733333333333334,
+      "avg_prompt_tokens": 598.9,
+      "truncated_count": 0,
+      "adapter_path": "experiments/outputs/lora_2wiki_llama31_8b/raw_crossenc_top5docs_r8_n1000/adapter",
+      "eval_summary_path": "experiments/outputs/smoke_test_2wiki_llama31_8b/raw_crossenc_top5docs_lora_r8_n1000_eval300/summary.json"
+    }
+  ]
+}
